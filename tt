@@ -10,5 +10,8 @@ if D > 0:
     x1 = b - (sqrt(D) / (2 * a))
     x2 = b + (sqrt(D) / (2 * a))
     print(x1, x2)
+elif D=0:
+   X = b / (2 * a)
+   print(X)
 else:
     print('Корней нет')
